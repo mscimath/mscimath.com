@@ -670,6 +670,18 @@
     ],
     "data_science" : [
         {
+            "postTitle": "Statistical learning",
+            "postLines": [
+                {"line": "Statistical learning, also known as machine learning, is a field of study that focuses on developing algorithms and techniques to enable computers to learn from and make predictions or decisions based on data. In statistical learning, we use mathematical and statistical methods to analyze and interpret patterns and relationships in data, with the goal of creating models that can generalize well to new, unseen data.", "code": false},
+                {"line": "There exist two main types of statistical learning approaches:", "code": false},
+                {"line": "'Supervised Learning' in which the algorithm is trained on labeled data, where each example is associated with a target or outcome variable. The algorithm learns from the input-output pairs in the training data and aims the generalize its predictions to new, unseen data. Common tasks in supervised learning include classification (predicting categories or classes) and regression (predicting continuous values).", "code": false},
+                {"line": "'Unsupervised Learning' in which the algorithm is trained on unlabeled data, where there are no predefined target variables. The goal of unsupervised learning is to uncover hidden patterns, structures, or relationships in the data. Common tasks in unsupervised learning include clustering (grouping similar data points together) and dimensionality reduction (reducing the number of features or variables while preserving important information).", "code": false},
+                {"line": "Statistical learning techniques are used in a wide range of applications, including image and speech recognition, natural language processing, recommandation systems, financial modeling, and many others. The field continues to advance rapidly, driven by innovations in algorithms, computational power, and the availability of large datasets."}
+            ],
+            "postTags": "",
+            "id": 0.0
+        },
+        {
             "postTitle": "Pros and Cons of Tools & Libraries dedicated for Data Science",
             "postLines": [
                 {"line": "Python is a #highLevel programming language widely used across a variety of industries. Looking at the ranking charts of languages most commonly used among data scientists, it holds a very strong first place, well above the others by over 10%. We are noting a decline here, though, by 2%. Whilst the second in line, Java, is having a better time with 0.8% incline of usage in the data science industry. Also 10% further away places itself JavaScript programming language perhaps due to the campatibility with online websites and platforms. Other programming languages that follow our adorable and very visual JavaScript are not so far behind. Only by a little over 1% is C#, by 1.5% C/C++, and the last one being PHP with only a bit under 3% lacking to stand on the podium.", "code": false},
