@@ -32,7 +32,7 @@ export default function Blog({posts, input}){
                                 ) : (<p key={id}>
                                   {oneLine.image === true? (
                                     <h4>image</h4>
-                                  ): (<h4>not image</h4>)
+                                  ): (<h4></h4>)
                                   }
                                    
                                   {oneLine.line}</p>)

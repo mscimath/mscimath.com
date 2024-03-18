@@ -10,7 +10,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box; 
-
 }
 
 html, body {
@@ -181,14 +180,14 @@ section#theory .section-main .main-theory-content {
   width: 80%;
   overflow-x: visible;
 
-}
-section#blog {
-  /*background: url("https://source.unsplash.com/K2tdx2mFDHc/1600x900") no-repeat
-    center center/cover;
-  background-attachment: fixed;*/
-  /*overflow-x: visible;
-
 }*/
+section#blog {
+  background: url("https://cdn.pixabay.com/photo/2024/03/04/16/44/barberry-8612696_1280.jpg") no-repeat
+    center center/cover;
+  background-attachment: fixed;
+  overflow-x: visible;
+
+}
 
 section.simple {
   height: 100vh;

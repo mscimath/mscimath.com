@@ -670,18 +670,87 @@
     ],
     "data_science" : [
         {
-            "postTitle": "Data Science Terminology: Statistical learning",
+            "postTitle": "Data Science Terminology - Statistical learning",
             "postLines": [
                 {"line": "Statistical learning, also known as machine learning, is a field of study that focuses on developing algorithms and techniques to enable computers to learn from and make predictions or decisions based on data. In statistical learning, we use mathematical and statistical methods to analyze and interpret patterns and relationships in data, with the goal of creating models that can generalize well to new, unseen data.", "code": false},
                 {"line": "There exist two main types of statistical learning approaches:", "code": false},
                 {"line": "'Supervised Learning' in which the algorithm is trained on labeled data, where each example is associated with a target or outcome variable. The algorithm learns from the input-output pairs in the training data and aims the generalize its predictions to new, unseen data. Common tasks in supervised learning include classification (predicting categories or classes) and regression (predicting continuous values).", "code": false},
                 {"line": "'Unsupervised Learning' in which the algorithm is trained on unlabeled data, where there are no predefined target variables. The goal of unsupervised learning is to uncover hidden patterns, structures, or relationships in the data. Common tasks in unsupervised learning include clustering (grouping similar data points together) and dimensionality reduction (reducing the number of features or variables while preserving important information).", "code": false},
-                {"line": "Statistical learning techniques are used in a wide range of applications, including image and speech recognition, natural language processing, recommandation systems, financial modeling, and many others. The field continues to advance rapidly, driven by innovations in algorithms, computational power, and the availability of large datasets."}
+                {"line": "Statistical learning techniques are used in a wide range of applications, including image and speech recognition, natural language processing, recommandation systems, financial modeling, and many others. The field continues to advance rapidly, driven by innovations in algorithms, computational power, and the availability of large datasets.", "code": false}
+                
             ],
             "postTags": "",
-            "id": 0.0
+            "id": 0.00
         },
-        {"postTitle": "Data Science Terminology: Continuous vs Quantitative Output Values "},
+        {
+            "postTitle": "Data Science Terminology - Continuous vs Quantitative Output Values",
+            "postLines": [
+                {"line": "In statistical learning or machine learning, continuous and quantitative output values refer to the type of data that the model aims to predict or estimate.", "code": false},
+                {"line": "'Continuous Output Values' are those that can take on any real number within a certain range. These values represent measurements that are not restricted to specific discrete points. For example, predicting the price of a house, the temperature, or the stock price are all examples of tasks where the output values are continuous.", "code": false},
+                {"line": "'Quantitative Output Values' are similar to continuous values in that they are numeric and represent some quantity. However, they are typically more specific in nature and often represent counts or measurements of discrete objects or events. For example, predicting the number of items sold, the age of a person, or the number of defects in a manufacturing process are tasks where the output values are quantitative.", "code": false},
+                {"line": "The main difference between continuous and quantitative output values lies in the nature of the data and the granularity of the predictions. Continuous output values can take on any value within a range, while quantitative output values are often counts or measurements of discrete entities or events.", "code": false},
+                {"line": "However, the terms are often used interchangeably because quantitative data often involves continuous measurements.", "code": false},
+                {"line": "Let's take a real life example:", "code": false},
+                {"line": "Suppose we are predicting house prices based on various features like area, number of bedrooms and location. The predicted price would be a continuous output value because it can take any value within a certain range, such as $100,000 to $1,000,000. It is also a quantitative output value because it represents the amount of money, which is a quantity.", "code": false},
+                {"line": "Continuous Output Value Examples:", "code": false},
+                {"line": "Temperature readings can be measured with precision, such as 20.5°C or 68.3°F. The temperature can vary continuously, and there's no limit to the number of possible values.", "code": false},
+                {"line": "Time is another continuous output value, where it can be measured down to fractions of a second. For example, 10:30:25.123 AM represents a precise time.", "code": false},
+                {"line": "Quantitative Output Value Examples:", "code": false},
+                {"line": "Number of Sales. In business, the number of sales made by a company within a certain period is a quantitative value. It represents the quantity of products of services sold.", "code": false},
+                {"line": "The population of a city, country, or region is also quantitative. It represents the number of people living in that area and can be measured in millions or billions.", "code": false},
+                {"line": "Inventory Levels. For a retail store, the quantity of items in inventory indicates how many units of each product are available for sale.", "code": false},
+                {"line": "Test scores, such as scores on a math exam or a standardized test, represent a quantitative value of performance or proficiency level of individuals in a particular subject.", "code": false}
+            ],
+            "postTags": "",
+            "id": 0.01
+        },
+        {
+            "postTitle" : "Data Science Terminology - Regression Problem",
+            "postLines" : [
+                {"line": "Regression is a type of predictive modeling technique used in statistical learning, particularly in supervised machine learning. It's used when the target varialble, or the variable we want to predict, is continuous. In other words, regression helps us understand the relationship between one or more independent variables (also called predictors or features) and a continuous outcome variable.", "code": false },
+                {"line": "The goal of regression analysis is to find the best-fitting mathematical model that describes the relationship between the independent variables and the dependent variable. This model can then be used to make predictions about the dependent variable for new data points where the independent variables are known.", "code": false},
+                {"line": "For example, let's say we want to predict house prices based on factors like square footage, number of bedrooms, and location. In this case, square footage, number of bedrooms, and location would be our independent variables, and house price would be our dependent variable. We could use regression analysis to build a model that quantifies how each of these independent variables influences the house price, allowing us to make predicions about the price of a house based on its features.", "code": false},
+                {"line": "There are different types of regression techniques, including linear regression, polynomial regression, and logistic regression, each suited for different types of data and relationships between variables. Linear regression, for example, assumes a linear relationship between the independent and dependent variables, while logistic regression is used when the dependent variable is binary (e.g., yes/no, true/false).", "code": false},
+                {"line": "Overall, regression analysis is a powerful tool for understanding and predicting continuous outcomes based on other variables, making it widely used in fields like economics, finance, healthcare, and more.", "code": false}
+            ],
+            "postTags": "",
+            "id" : 0.02
+        },
+        {
+            "postTitle": "Data Science Terminology - Clustering Problem",
+            "postLines": [
+                {"line": "Clustering is a type of unsepervised machine learning technique used to group similar data points together based on their features or characteristics. Unlike supervised learning, where the algorithm is trained on labeled data (data with known outcomes), unsupervised learning works with unlabled data, meaning there are no predefined categories or classes.", "code": false},
+                {"line": "The goal of clustering is to discover inherent structures or patterns in the data without prior knowledge of what those patterns might be. The algorithm idenrigies groups of data points that are more similar to each other than to those in other groups. These groups are called clusters.", "code": false},
+                {"line": "Clustering algorithms typically measure the similarity between data points using a distance metric, such as Euclidean distance or cosine similarity. Data points that are close to each other in feature space are considered similar and are likely to be grouped together in the same cluster.", "code": false},
+                {"line": "There are various clustering algorithms, each with its own approach to identifying clusters:", "code":false},
+                {"line": "One of the most popular clustering algorithms is 'K-means' which partitions the data into a predefined number of clusters (K) based on the mean value of the data points in each cluster. It iteratively assigns data points to the nearest cluster centroid and updates the centroids until convergence.", "code":false},
+                {"line": "'Hierarchical clustering': This algorithm builds a hierarchy of clusters by recursively merging or splitting clusters based on their similarity. It can produce dedrogram representations that show the hierarchical relationships between clusters.", "code":false},
+                {"line": "'DBSCAN' (Density-Based Spation Clustering of Applications with Noise):", "code":false},
+                {"line": "'Agglomerative clustering' is similar to hierarchical clustering, agglomerative clustering starts with each data point as a separate cluster and iteratively merges the closest pairs of clusters until only one cluster remains or a stopping criterion is met.", "code":false},
+                {"line": "Clustering has many applications across various domains, including customer segmentation, anomaly detection, image segmentation, and document clustering. It helps uncover hidden patterns in data and can provide valuable insights for decision-making and analysis.", "code":false}
+            ],
+            "postTags": "",
+            "id": 0.03
+        },
+        {
+            "postTitle": "Hierarchical Algorithms - Agglomerative Clustering",
+            "postLines": [
+                {"line": "Agglomerative clustering is a bottom-up hierarchical clustering algorithm. It starts with each data point as a separate cluster and then iteratively merges the closest pairs of clusters until only one cluster remains or a stopping criterion is met.", "code": false},
+                {"line": "A a step-by-step explanation of how agglomerative clustering works:", "code": false},
+                {"line": "1. Initialization: Start with each data point as a singleton cluster. Each data point is considered a cluster of its own.", "code": false},
+                {"line": "", "code": false},
+                {"line": "", "code": false},
+                {"line": "", "code": false},
+                {"line": "", "code": false},
+                {"line": "", "code": false},
+                {"line": "", "code": false},
+                {"line": "", "code": false},
+                {"line": "", "code": false}
+                
+            ],
+            "postTags": "",
+            "id": 1.0
+        },
         {
             "postTitle": "Pros and Cons of Tools & Libraries dedicated for Data Science",
             "postLines": [
