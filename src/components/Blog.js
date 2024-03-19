@@ -28,7 +28,7 @@ export default function Blog({posts, input}){
                         {post.postLines.map((oneLine, id) => {
                               return(
                                 oneLine.code === true ? (
-                                  <pre key={id}>{oneLine.line}</pre> 
+                                  <pre className='codeText' key={id}>{oneLine.line}</pre> 
                                 ) : (<p key={id}>
                                   {oneLine.image === true? (
                                     <h4>image</h4>
