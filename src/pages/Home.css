@@ -1,0 +1,24 @@
+/*Home Menu*/
+#menu-buttons-container, .menu-buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#menu-buttons-container {
+    margin-top: 10vh;
+}
+
+/*Home Menu Sections*/
+.menu-section {
+
+}
+
+/*Home Menu Individual Buttons*/
+.menu-buttons {
+    
+}
+.menu-button a {
+    color: var(--primary);
+    text-decoration: none;
+}

@@ -273,10 +273,26 @@ section .section-footer {
   background: rgba(255, 255, 255, 0.04);
 }
 
-/*Math & Science Subjects*/
-.subject-container {
-  
+/*Menu Subjects*/
+#subjects-table {
+  font-size: 3vh;
 }
+.subjects-title {
+  padding-bottom: 10vh;
+}
+.subjects-menu-title-addition {
+  margin-top: 2vh;
+  padding: 1vh;
+}
+#subjects-table th{
+  width: auto;
+}
+.subjects-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*nie wiem gdzie to*/
 .subject-title {
   padding: 2rem;
 }
