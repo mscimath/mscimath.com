@@ -9,10 +9,10 @@ export default function Home(){
     const mainLinks =[
         {id : "blogs", category: "Read about...", linkItems: [
             {linkItem : "mainBlog", link : "#blog", linkTekst : "...it all."},
-            {linkItem : "mathematicsBlog", link : "/mathematics#blog", linkTekst : "...mathematics"}
+            {linkItem : "mathematicsBlog", link : "/mathematics#blog", linkTekst : "...mathematics."}
         ]},
         {id : "subjects", category: "Learn about...", linkItems:[
-            {linkItem : "python", link : "/python", linkTekst: "...programming in Python"}
+            {linkItem : "python", link : "/python", linkTekst: "...programming in Python."}
         ]},
         {id : "other", category: "", linkItems:[
             {linkItem : "contact", link : "#contact", linkTekst : "Contact me about anything or book a lesson."},
@@ -48,23 +48,7 @@ export default function Home(){
           }
         })}
             
-            Read about... {/*}
-            {mainLinks[0].blogs.map((blog) => {
-                return (
-                    <div>{blog.linkTekst}</div>
-                )
-            })}
-            Learn about...
-            {mainLinks[1].subjects.map((subject) => {
-                return (
-                    <div>{subject.linkTekst}</div>
-                )
-            })}
-            {mainLinks[2].other.map((link) => {
-                return (
-                    <div>{link.linkTekst}</div>
-                )
-            })}*/}
+            
         </div>
 
 

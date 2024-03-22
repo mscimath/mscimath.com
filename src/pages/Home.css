@@ -3,22 +3,31 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 #menu-buttons-container {
-    margin-top: 10vh;
+    margin: 10vh 4vh 4vh 4vh;
+
 }
 
 /*Home Menu Sections*/
 .menu-section {
-
 }
 
 /*Home Menu Individual Buttons*/
 .menu-buttons {
-    
+    font-family: "Fasthand", cursive;
+    font-weight: 400;      
+    font-size: 5vh;
+}
+.menu-button {
+    padding: 2.5vh;
 }
 .menu-button a {
     color: var(--primary);
     text-decoration: none;
+    border: 1px solid;
+    border-color: aliceblue;
+    padding: 0 1.5vh;
 }
