@@ -15,7 +15,8 @@ export default function Home(){
             {linkItem : "python", link : "/python", linkTekst: "...programming in Python."}
         ]},
         {id : "other", category: "", linkItems:[
-            {linkItem : "contact", link : "#contact", linkTekst : "Contact me about anything or book a lesson."},
+            {linkItem : "contact", link : "#contact", linkTekst : "Contact me about anything."},
+            {linkItem : "lessons", link : "#lessons", linkTekst : "See my prices."}
         ]}
     ];
 
@@ -36,7 +37,7 @@ export default function Home(){
                 <h4>{section}</h4>
                 <div className='menu-buttons'>  
                   {linkObject.linkItems.map((item) => (
-                    <div className='menu-button'>
+                    <div className='menu-button button-margin'>
                       <HashLink to={item.link}>{item.linkTekst}</HashLink>
                     </div>
                   ))}

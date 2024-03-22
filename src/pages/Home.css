@@ -11,6 +11,10 @@
 
 }
 
+.menu-section {
+    margin-top: 2.5rem;
+}
+
 /*Home Menu Sections*/
 .menu-section {
 }
@@ -19,15 +23,59 @@
 .menu-buttons {
     font-family: "Fasthand", cursive;
     font-weight: 400;      
-    font-size: 5vh;
+    font-size: 2rem;
 }
 .menu-button {
-    padding: 2.5vh;
+    all: initial;
+    font-family: "Fasthand", cursive;
+    font-size: 2rem;
+    margin: 0 ;
+    padding: 0 ;
 }
 .menu-button a {
     color: var(--primary);
     text-decoration: none;
-    border: 1px solid;
-    border-color: aliceblue;
+    margin: 0vh;
     padding: 0 1.5vh;
+    color: rgb(83, 132, 200);
+
 }
+
+/*Media Querries*/
+
+@media only screen and (max-width: 445px) {
+    .menu-button a{
+        font-size: 2rem;
+      }
+      #menu-buttons-container {
+        margin: 3vh;
+    
+      }
+    
+}  
+
+@media only screen and (min-width: 445px) {
+    .menu-button a {
+        font-size: 2rem;
+    } 
+    #menu-buttons-container {
+        margin: 3vh;
+    
+      }
+}
+
+@media only screen and (min-width: 845px) {
+    .menu-button a {
+        font-size: 2.5rem;
+    } 
+    .menu-button {
+        margin: 0.6rem;
+    }
+    #menu-buttons-container {
+        margin: 10vh 4vh;
+    
+      }
+}
+
+
+
